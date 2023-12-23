@@ -1,0 +1,318 @@
+.cardsGamesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+  margin-top: 30px;
+  padding: 0;
+  color: rgb(202, 202, 202);
+  background-color: #2a2a2abb;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.cardContent{
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cardContent1{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  height: auto;
+  flex-direction: row;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardImage{
+  width: 500px;
+  object-fit: cover;
+  transition: 1s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+
+.cardImage:hover {
+  filter: contrast(1.2); /* Aumenta el contraste al 120% */
+}
+
+.title{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 80%;
+  flex-grow: 1;
+}
+
+.Favorite{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.reseÑa{
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+  color: #00a2ff95;
+  margin: 10px;
+}
+
+.textInfo{
+  font-size: 15x;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+  color: #00a2ff95;
+  margin: 10px;
+}
+
+.heart{
+  width: 40px;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.heartInLibrary{
+  width: 40px;
+  cursor: pointer;
+  filter: grayscale(0%);
+  transition: 0.3s;
+}
+
+.description{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 75%;
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.shortDescription {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: rgb(202, 202, 202);
+}
+
+.shortDescription h3 {
+  margin-left: 20px;
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.cardTitle{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  font-family: 'Cairo Play', sans-serif;
+  font-size: 2vw; 
+  letter-spacing: 0;
+  color: rgb(202, 202, 202);
+  line-height: 1;
+}
+
+.plattformButton{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 5px;
+  margin-top: auto;
+}
+
+.genre{
+  font-size: 12px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: rgb(202, 202, 202);
+}
+
+.textArea{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.textArea textArea{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 3px;
+  padding: 10px;
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  color: rgb(202, 202, 202);
+  font-family: 'Ubuntu', sans-serif;
+  resize: vertical;
+  font-weight: bold;
+  border: solid 1px;
+  border: 1.8px solid #00a2ff;
+  transition: border 0.5s;
+}
+
+
+.textArea textarea:focus{
+  border: 1.8px solid #00ccff;
+  outline: none;
+}
+
+.duck{
+  width: 70px;
+}
+
+.btnRegistro{
+  all: initial;
+  cursor: pointer;
+  height: auto;
+}
+
+.btnRegistro h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  font-family: 'Ubuntu', sans-serif;
+  border: 1.8px solid #00a2ff;
+  border-radius: 3px;
+  color: #00a2ff;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.btnRegistro h1:hover{
+  color: #00ccff;
+  border: 1.8px solid #00ccff;
+} 
+
+.cardBtn{
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 3px;
+  color: rgb(202, 202, 202);
+  background-color: #2464ad;
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.avatarImage{
+  width: 30px;
+}
+
+.cardBtn:hover{
+  background-color: #0475f6;
+}
+
+.reviewsContainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  gap: 15px;
+}
+
+.reviewUser{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.reviewUser img{
+  width: 25px;
+}
+
+.text{
+  font-weight: 400;
+  padding: 8px;
+}
+
+.reviewComponent{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  background-color: #19191972;
+  border-radius: 8px;
+  color:  rgb(202, 202, 202);
+  border-bottom: 1.8px solid #00a2ff;
+  transition: 1s;
+}
+
+.Coments{
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+  /* MEDIA *//* MEDIA *//* MEDIA *//* MEDIA */
+  
+  @media (max-width: 576px){
+    .title{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 0rem;
+      padding: 20px;
+      width: 100%;
+      height: auto;
+    }
+    .cardTitle{
+      font-size: 1rem;
+    }
+    .text{
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+  }
